@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HAIII</h1>
+    <h1>haloo </h1>
     <a href="/halaman">halaman 2</a>
 </body>
 </html>
