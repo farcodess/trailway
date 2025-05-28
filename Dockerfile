@@ -7,7 +7,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Set working directory 
 WORKDIR /var/www 
 # Copy project 
-COPY 
+COPY . .
 # Install Laravel dependencies 
 RUN composer install --no-dev-optimize-autoloader 
 # Set permissions 
